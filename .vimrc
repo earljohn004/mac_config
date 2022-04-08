@@ -8,7 +8,7 @@ call vundle#begin()
 "call vundle#begin('~/some/path/here')
 Plugin 'VundleVim/Vundle.vim'
 "Plugin 'tomasr/molokai'
-Plugin 'SirVer/ultisnips'
+"Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 "Plugin 'Shougo/neocomplete.vim'
 Plugin 'Shougo/deoplete.nvim'
@@ -21,6 +21,7 @@ Plugin 'majutsushi/tagbar'
 Plugin 'hari-rangarajan/CCTree' "works for C Code only. Function Trace
 
 Plugin 'fatih/vim-go'
+Plugin 'iamcco/markdown-preview.nvim' 
 
 " TESTING PLUGIN
 Plugin 'junegunn/fzf'

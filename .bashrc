@@ -2,7 +2,7 @@
 
 PS1='\[\e[1;33m\][ _MAC_ \w ]\[\e[1;34m\] \u \n$ \[\033[0m\]'
 export LSCOLORS='xcfxcxdxcxegedabagacad'
-export PATH=$PATH:/Users/pheaab/Library/Android/sdk/platform-tools
+export PATH=$PATH:/Users/pheaab/Library/Android/sdk/platform-tools:/usr/local/go/bin
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
@@ -20,7 +20,7 @@ alias reload="source ~/.bashrc && source ~/.profile"
 alias ..="cd .. && ls"
 alias search="find | grep "
 alias attach="tmux attach-session -t"
-alias vim="nvim"
+alias ibrew='arch -x86_64 /usr/local/bin/brew'
 
 #navigate to local home directory
 
@@ -48,4 +48,8 @@ function cscope_findsourcs(){
 
 }
 
+alias ibrew='arch -x86_64 /usr/local/bin/brew'
+alias winlogin="ssh abaquie@CPAPSAZW10-0639"
+
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
